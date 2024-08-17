@@ -4,7 +4,7 @@ import prompt
 
 YES = "yes"
 NO = "no"
-ERROR_MESSAGE = "'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\n Let's try again, {name}!"
+ERROR_MESSAGE = "'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
 WIN_MESSAGE = "Congratulations, {name}!"
 CORRECT = "Correct!"
 ATTEMPTS_NUM = 3
@@ -23,9 +23,13 @@ def game_logic(name: str) -> None:
         if user_answer == correct_answer:
             print(CORRECT)
         else:
-            print(ERROR_MESSAGE.format(name, user_answer, correct_answer))
+            print(
+                ERROR_MESSAGE.format(
+                    user_answer=user_answer, correct_answer=correct_answer, name=name
+                )
+            )
             return
-    print(WIN_MESSAGE.format(name))
+    print(WIN_MESSAGE.format(name=name))
 
 
 def main() -> None:
