@@ -15,4 +15,3 @@ def game_logic() -> list:
     print(f"Question: {guess_num}")
     user_answer = input("Your answer: ")
     return [user_answer, correct_answer]
-    return [user_answer, correct_answer]
