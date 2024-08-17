@@ -7,3 +7,6 @@
 
 ### DEMO brain-calc game
 [![brain-calc install&play demo](https://asciinema.org/a/8fqurG6SdYPNWEwwkPYXF0mdy.svg)](https://asciinema.org/a/8fqurG6SdYPNWEwwkPYXF0mdy?autoplay=1)
+
+### DEMO brain-gcd game
+[![brain-gcd play demo](https://asciinema.org/a/N0xrZaiI15sxGq1HNGGGFFpys.svg)](https://asciinema.org/a/N0xrZaiI15sxGq1HNGGGFFpys?autoplay=1)
