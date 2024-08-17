@@ -3,7 +3,7 @@ from random import choice, randint
 RULES = "What is the result of the expression?"
 
 
-def game_logic():
+def game_logic() -> list:
     left_operand = randint(1, 100)
     right_operand = randint(1, 100)
     operator = choice(["+", "-", "*"])
