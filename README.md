@@ -10,3 +10,6 @@
 
 ### DEMO brain-gcd game
 [![brain-gcd play demo](https://asciinema.org/a/N0xrZaiI15sxGq1HNGGGFFpys.svg)](https://asciinema.org/a/N0xrZaiI15sxGq1HNGGGFFpys?autoplay=1)
+
+### DEMO brain-progression game
+[![brain-progression play demo](https://asciinema.org/a/pxA1762tQqovFndS5AYWWg13M.svg)](https://asciinema.org/a/pxA1762tQqovFndS5AYWWg13M?autoplay=1)
