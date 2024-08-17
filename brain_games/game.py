@@ -7,6 +7,8 @@ ERROR_MESSAGE = (
 WIN_MESSAGE = "Congratulations, {name}!"
 CORRECT = "Correct!"
 ATTEMPTS_NUM = 3
+YES = "yes"
+NO = "no"
 
 
 def game_greet(game_rules: str) -> str:

@@ -1,7 +1,7 @@
 from random import randint
 
-YES = "yes"
-NO = "no"
+from brain_games.game import NO, YES
+
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
@@ -14,4 +14,5 @@ def game_logic() -> list:
     correct_answer = YES if isEven(guess_num) else NO
     print(f"Question: {guess_num}")
     user_answer = input("Your answer: ")
+    return [user_answer, correct_answer]
     return [user_answer, correct_answer]
