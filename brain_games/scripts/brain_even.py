@@ -4,7 +4,10 @@ import prompt
 
 YES = "yes"
 NO = "no"
-ERROR_MESSAGE = "'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!"
+ERROR_MESSAGE = (
+    "'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'"
+    ".\nLet's try again, {name}!"
+)
 WIN_MESSAGE = "Congratulations, {name}!"
 CORRECT = "Correct!"
 ATTEMPTS_NUM = 3
