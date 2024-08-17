@@ -15,7 +15,7 @@ def game_logic():
     correct_answer = YES if isEven(guess_num) else NO
     print(f"Question: {guess_num}")
     user_answer = input("Your answer: ")
-    return [correct_answer, user_answer]
+    return [user_answer, correct_answer]
 
 
 def main() -> None:
