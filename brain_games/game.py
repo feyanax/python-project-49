@@ -2,8 +2,6 @@ from typing import Callable
 
 import prompt
 
-YES = "yes"
-NO = "no"
 ERROR_MESSAGE = (
     "'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'"
     ".\nLet's try again, {name}!"
