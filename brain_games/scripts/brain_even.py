@@ -28,7 +28,9 @@ def game_logic(name: str) -> None:
         else:
             print(
                 ERROR_MESSAGE.format(
-                    user_answer=user_answer, correct_answer=correct_answer, name=name
+                    user_answer=user_answer,
+                    correct_answer=correct_answer,
+                    name=name,
                 )
             )
             return
