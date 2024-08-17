@@ -7,7 +7,7 @@ def game_logic() -> list:
     left_operand = randint(1, 100)
     right_operand = randint(1, 100)
     operator = choice(["+", "-", "*"])
-    print(f"Question: {left_operand}{operator}{right_operand}")
+    print(f"Question: {left_operand} {operator} {right_operand}")
     user_answer = input("Your answer: ")
 
     match operator:
