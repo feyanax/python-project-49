@@ -1,5 +1,3 @@
-from typing import Callable
-
 import prompt
 
 ERROR_MESSAGE = (
@@ -19,13 +17,11 @@ def game_greet(game_rules: str) -> str:
     return name
 
 
-def run_game(
-    rules: str, game_logic: Callable, attempts: int = ATTEMPTS_NUM
-) -> None:
-    name = game_greet(rules)
+def run_game(game) -> None:
+    name = game_greet(game.RULES)
 
-    for attempt in range(attempts):
-        [user_answer, correct_answer] = game_logic()
+    for attempt in range(ATTEMPTS_NUM):
+        [user_answer, correct_answer] = game.game_logic()
         if user_answer == correct_answer:
             print(CORRECT)
             continue
