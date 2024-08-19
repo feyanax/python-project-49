@@ -23,7 +23,7 @@ def run_game(game) -> None:
     print(game.RULES)
 
     for attempt in range(ATTEMPTS_NUM):
-        question, right_answer = game.game_logic()
+        question, right_answer = game.get_question_and_right_answer()
         print(question)
         user_answer = input("Your answer: ")
         if user_answer == right_answer:
