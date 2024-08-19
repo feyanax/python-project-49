@@ -5,13 +5,12 @@ from brain_games.game import NO, YES
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def isEven(num: int) -> bool:
+def is_even(num: int) -> bool:
     return num % 2 == 0
 
 
-def game_logic() -> list:
+def get_question_and_right_answer() -> list:
     guess_num = randint(1, 301)
-    correct_answer = YES if isEven(guess_num) else NO
-    print(f"Question: {guess_num}")
-    user_answer = input("Your answer: ")
-    return [user_answer, correct_answer]
+    right_answer = YES if is_even(guess_num) else NO
+    question = f"Question: {guess_num}"
+    return question, right_answer

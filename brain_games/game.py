@@ -23,15 +23,17 @@ def run_game(game) -> None:
     print(game.RULES)
 
     for attempt in range(ATTEMPTS_NUM):
-        user_answer, correct_answer = game.game_logic()
-        if user_answer == correct_answer:
+        question, right_answer = game.game_logic()
+        print(question)
+        user_answer = input("Your answer: ")
+        if user_answer == right_answer:
             print(CORRECT)
             continue
         else:
             print(
                 ERROR_MESSAGE.format(
                     user_answer=user_answer,
-                    correct_answer=correct_answer,
+                    correct_answer=right_answer,
                     name=name,
                 )
             )

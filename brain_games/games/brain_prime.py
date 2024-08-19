@@ -14,9 +14,8 @@ def is_prime(num) -> bool:
     return d * d > num
 
 
-def game_logic() -> list:
+def get_question_and_right_answer() -> list:
     guess_num = randint(1, 1000)
-    correct_answer = YES if is_prime(guess_num) else NO
-    print(f"Question: {guess_num}")
-    user_answer = input("Your answer: ")
-    return [user_answer, correct_answer]
+    right_answer = YES if is_prime(guess_num) else NO
+    question = f"Question: {guess_num}"
+    return question, right_answer
