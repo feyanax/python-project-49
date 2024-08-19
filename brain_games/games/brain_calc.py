@@ -17,4 +17,4 @@ def get_question_and_right_answer() -> list:
         case "*":
             right_answer = left_operand * right_operand
 
-    return question, right_answer
+    return question, str(right_answer)
