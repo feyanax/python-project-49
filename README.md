@@ -2,7 +2,28 @@
 [![Actions Status](https://github.com/feyanax/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/feyanax/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc427e6ab2f0a140ed0e/maintainability)](https://codeclimate.com/github/feyanax/python-project-49/maintainability)
 
-### Hexlet first project
+# Hexlet first project
+BRAIN-GAMES
+Package includes 5 games:
+
+ 
+This project was built using this tools:
+1. Python 3.12
+2. poetry
+3. flake8
+4. prompt
+
+To install this package use command:
+pip install --user git@github.com:feyanax/python-project-49.git
+
+To play type one of this commands:
+- brain-even
+- brain-calc
+- brain-progression
+- brain gcd
+- brain-prime
+
+
 ## DEMO brain-even game
 [![brain-even install&play demo](https://asciinema.org/a/xl1ZiHfTuEYQrW6KmVfZBID2V.svg)](https://asciinema.org/a/xl1ZiHfTuEYQrW6KmVfZBID2V?autoplay=1)
 
