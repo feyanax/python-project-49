@@ -9,4 +9,4 @@ def get_question_and_right_answer() -> list:
     second_num = randint(1, 100)
     question = f"Question: {first_num} {second_num}"
     right_answer = gcd(first_num, second_num)
-    return question, right_answer
+    return question, str(right_answer)
