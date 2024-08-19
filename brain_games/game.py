@@ -19,7 +19,7 @@ def game_greet() -> str:
 
 
 def run_game(game) -> None:
-    name = game_greet(game.RULES)
+    name = game_greet()
     print(game.RULES)
 
     for attempt in range(ATTEMPTS_NUM):
