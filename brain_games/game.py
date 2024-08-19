@@ -11,16 +11,16 @@ YES = "yes"
 NO = "no"
 
 
-def game_greet(game_rules: str) -> str:
+def game_greet() -> str:
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}")
-    print(game_rules)
     return name
 
 
 def run_game(game) -> None:
     name = game_greet(game.RULES)
+    print(game.RULES)
 
     for attempt in range(ATTEMPTS_NUM):
         [user_answer, correct_answer] = game.game_logic()
